@@ -109,3 +109,28 @@ Simbólico
 Cada "entidad" que forma parte de lo que se haya dividido se basa en reglas. Por ejemplo, cada palabra es un token cuando una oración se "tokeniza" en palabras. Cada oración también puede ser un token, si has tokenized las oraciones de un párrafo.
 
 
+ entorno con el signo * antes de la ruta del directorio es el activo. Para cambiar el uso del ambiente activo.
+
+activate <python_version>
+for eg. activate python3.5
+Ahora revise la lista de paquetes instalados en este entorno usando commnad
+
+conda list
+Si no encuentra 'nltk' en la lista, use
+
+conda install -c anaconda nltk=3.2.1
+Para más información, puede consultar https://anaconda.org/anaconda/nltk .
+
+Para instalar mini-conda aka conda : http://conda.pydata.org/docs/install/quick.html
+
+Para instalar anaconda : https://docs.continuum.io/anaconda/install
+
+Términos básicos
+Cuerpo
+Cuerpo del texto, singular. Corpora es el plural de este. Ejemplo: una colección de revistas médicas.
+
+Léxico
+Palabras y sus significados. Ejemplo: diccionario inglés. Considere, sin embargo, que varios campos tendrán diferentes léxicos. Por ejemplo: para un inversionista financiero, el primer significado para la palabra "Bull" es alguien que tiene confianza en el mercado, en comparación con el léxico común inglés, donde el primer significado para la palabra "Bull" es un animal. Como tal, existe un léxico especial para inversores financieros, médicos, niños, mecánicos, etc.
+
+Simbólico
+Cada "entidad" que forma parte de lo que se haya dividido se basa en reglas. Por ejemplo, cada palabra es un token cuando una oración se "tokeniza" en palabras. Cada oración ta
